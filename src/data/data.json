@@ -1,21 +1,20 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Titania-Gaming",
+    "paragraph": "Devenu un acteur incontournable dans l'univers du gaming francophone, avec une communauté fidèle et en constante croissance. Notre entreprise continue d'explorer de nouvelles opportunités, tout en restant fidèle à nos valeurs et à notre mission initiale."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Titania Gaming a vu le jour en 2020, lorsque, avec un groupe d'amis, nous avons décidé d'ouvrir un serveur de jeu sans prétention pour jouer ensemble à un jeu de survie de dinosaures, *Beasts of Bermuda*. Ce qui avait commencé comme un simple passe-temps entre amis a rapidement rencontré un succès inattendu. Notre serveur a attiré de plus en plus de joueurs, au point de devenir une véritable communauté. Face à cet engouement, nous avons pris la décision de pérenniser ce serveur.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "16 serveurs de jeux,",
+      "2 serveurs dédiés,",
+      "35 collaborateurs,",      
+      "6 partenaires stratégiques,"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Une communauté de joueurs active,",      
+      "Formation continue du staff,",
+      "Un engagement envers l'amélioration constante des services proposés."
     ]
   },
   "Gallery": [
@@ -149,7 +148,7 @@
       "img": "img/team/04.jpg",
       "name": "Karen Doe",
       "job": "Project Manager"
-    }
+    }    
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
@@ -162,23 +161,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Discord",
+      "text": "Mise a disposition de discords communautaires pour chaque jeux hébergés par Titania, ces espaces sont conçus pour favoriser les échanges, l'entraide."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Événements",
+      "text": "Organisation d'événements et de concours au sein de chaque communauté de jeu afin de créer une dynamique enrichissante et garder un esprit ludique."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Équipe",
+      "text": "Des passionnés sont dédiés à répondre aux problématiques quotidiennes de notre communauté. Leur expertise et leur enthousiasme garantissent un support de qualité pour tous nos jeux."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Partenariat",
+      "text": "En tant que partenaire, collaborez sur des projets innovants avec nous. Contactez-nous pour explorer comment créer une valeur ajoutée mutuelle."
     }
   ]
 }
