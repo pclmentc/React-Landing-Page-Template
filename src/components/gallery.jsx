@@ -49,14 +49,14 @@ export const Gallery = (props) => {
             onClick={prevPage}
             disabled={currentIndex === 0}
           >
-            &laquo; Précédent
+            &laquo; 
           </button>
           <button
             className="btn btn-primary ml-2"
             onClick={nextPage}
             disabled={currentIndex === totalPages - 1}
           >
-            Suivant &raquo;
+            &raquo;
           </button>
         </div>
       </div>
