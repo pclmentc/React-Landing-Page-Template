@@ -19,81 +19,120 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Project Title",      
+      "smallImage": "img/40k.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Project Title",      
+      "smallImage": "img/albion.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Project Title",      
+      "smallImage": "img/Ark.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Project Title",    
+      "smallImage": "img/Bob.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Project Title",      
+      "smallImage": "img/creatures.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Project Title",      
+      "smallImage": "img/dark.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Project Title",      
+      "smallImage": "img/dayZ.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Project Title",      
+      "smallImage": "img/Dod.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Project Title",      
+      "smallImage": "img/GTA-RP.webp"
+    },
+    {
+      "title": "Project Title",      
+      "smallImage": "img/honor.webp"
+    },
+    {
+      "title": "Project Title",      
+      "smallImage": "img/lol.webp"
+    },
+    {
+      "title": "Project Title",      
+      "smallImage": "img/minecraft.webp"
+    },
+    {
+      "title": "Project Title",      
+      "smallImage": "img/palworld.webp"
+    },
+    {
+      "title": "Project Title",      
+      "smallImage": "img/pot.webp"
+    },
+    {
+      "title": "Project Title",      
+      "smallImage": "img/Project-Z.webp"
+    },
+    {
+      "title": "Project Title",      
+      "smallImage": "img/Dod.webp"
+    },
+    {
+      "title": "Project Title",      
+      "smallImage": "img/rain.webp"
+    },
+    {
+      "title": "Project Title",      
+      "smallImage": "img/Red.webp"
+    },
+    {
+      "title": "Project Title",      
+      "smallImage": "img/V-R.webp"
+    },
+    {
+      "title": "Project Title",      
+      "smallImage": "img/vintagestory.webp"
+    },
+    {
+      "title": "Project Title",      
+      "smallImage": "img/farming.webp"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/serveur/titania_ark.webp",
+      "name": "Ark Ascended",
+      "text": "Formez une tribu, apprivoisant des créatures primitives, explorez, élaborez et construisez votre chemin jusqu'au sommet de la chaîne de nourriture."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/serveur/titania_BOB.webp",
+      "name": "Beast of bermuda",
+      "text": "Le joueur fait partie d'un écosystème vivant, créé par les joueurs. L'ultime objectif est de survivre sur une des îles de Beasts of Bermuda."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/serveur/titania_farming.webp",
+      "name": "Farming Simulator 25",
+      "text": "Créez votre exploitation et que la récolte soit bonne ! Cultivez vos plantes, occupez-vous des animaux, gérez vos productions et relevez les défis des saisons."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/serveur/Titania_GMOD_V2.webp",
+      "name": "Garry's Mod",
+      "text": "Garry's Mod est une boîte à outils graphique. À l'inverse des jeux normaux, aucun but ni objectif n'est prédéfini. Nous vous donnons les outils et vous faites le reste."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/serveur/titania_path.webp",
+      "name": "Path of Titans",
+      "text": "Explorez un environnement rempli d'événements naturels, de quêtes, de guildes, d'aventures et de jeux de forme libre, tout en profitant d'une vie riche, en évitant la mort et en augmentant votre dinosaure en fonction de votre style de jeu."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/serveur/titania_the_isle.webp",
+      "name": "The Isle",
+      "text": "Faites l'expérience d'un gameplay de survie en monde ouvert impitoyable en tentant de rester en vie sur une île hostile habitée par des dinosaures ! Chassez. Grandissez. Survivez."
     }
   ],
   "Testimonials": [
