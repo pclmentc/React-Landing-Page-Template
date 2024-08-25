@@ -6,25 +6,41 @@ const initialState = {
   name: "",
   email: "",
   message: "",
+  category: "",
 };
+
+const categoryEmailMap = {
+  debanissement: "",// Ajoute l'adresse email appropriée si nécessaire
+  partenariat: "",// Ajoute l'adresse email appropriée si nécessaire
+  autres: "",// Ajoute l'adresse email appropriée si nécessaire
+};
+
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, email, message, category }, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
     
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
+    // Déterminer l'adresse email en fonction de la catégorie
+    const recipientEmail = categoryEmailMap[category] || "default@example.com";
     
+    // Préparer les données pour EmailJS
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      message: message,
+      to_email: recipientEmail,
+    };
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams, "YOUR_PUBLIC_KEY")
       .then(
         (result) => {
           console.log(result.text);
@@ -35,6 +51,7 @@ export const Contact = (props) => {
         }
       );
   };
+
   return (
     <div>
       <div id="contact">
@@ -42,11 +59,7 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
+                <h2>Nous contacter</h2>                
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
@@ -57,9 +70,10 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Nom"
                         required
                         onChange={handleChange}
+                        value={name}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -74,6 +88,7 @@ export const Contact = (props) => {
                         placeholder="Email"
                         required
                         onChange={handleChange}
+                        value={email}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -88,32 +103,51 @@ export const Contact = (props) => {
                     placeholder="Message"
                     required
                     onChange={handleChange}
+                    value={message}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
+                <div className="form-group">
+                  <label htmlFor="category">Catégories :</label>
+                  <select
+                    name="category"
+                    id="category"
+                    className="form-control"
+                    required
+                    onChange={handleChange}
+                    value={category}
+                  >
+                    <option value="">Sélectionnez une catégorie</option>
+                    <option value="debanissement">Débanissement</option>
+                    <option value="partenariat">Partenariat</option>
+                    <option value="autres">Autres</option>
+                  </select>
+                </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                <button type="submit" className="btn btn-custom btn-lg"
+                disabled={!category}
+                >                
+                  Envoyer le message
                 </button>
               </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
+              <h3>Informations de contact</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fa fa-map-marker"></i> Adresse
                 </span>
-                {props.data ? props.data.address : "loading"}
+                {props.data ? props.data.address : "chargement"}
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-phone"></i> Téléphone
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                {props.data ? props.data.phone : "chargement"}
               </p>
             </div>
             <div className="contact-item">
@@ -121,7 +155,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                {props.data ? props.data.email : "chargement"}
               </p>
             </div>
           </div>
@@ -130,17 +164,17 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
+                    <a href={props.data ? props.data.facebook : "/"}target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
+                    <a href={props.data ? props.data.twitter : "/"}target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
+                    <a href={props.data ? props.data.youtube : "/"}target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
