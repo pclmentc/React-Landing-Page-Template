@@ -190,17 +190,17 @@
     }    
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
+    "address": "",
+    "phone": "",
+    "email": "",
+    "facebook": "",
+    "twitter": "",
     "youtube": "https://www.youtube.com/@TITANIA-GAMING-TV/featured"
   },
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Discord",
+      "title": "Discords",
       "text": "Mise a disposition de discords communautaires pour chaque jeux hébergés par Titania, ces espaces sont conçus pour favoriser les échanges, l'entraide."
     },
     {
@@ -210,12 +210,12 @@
     },
     {
       "icon": "fa fa-group",
-      "title": "Équipe",
+      "title": "Supports",
       "text": "Des passionnés sont dédiés à répondre aux problématiques quotidiennes de notre communauté. Leur expertise et leur enthousiasme garantissent un support de qualité pour tous nos jeux."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Partenariat",
+      "title": "Partenariats",
       "text": "En tant que partenaire, collaborez sur des projets innovants avec nous. Contactez-nous pour explorer comment créer une valeur ajoutée mutuelle."
     }
   ]

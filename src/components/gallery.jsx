@@ -35,8 +35,7 @@ export const Gallery = (props) => {
               className="col-sm-6 col-md-4 col-lg-4 mb-4"
             >
               <Image
-                title={d.title}
-                largeImage={d.largeImage}
+                title={d.title}                
                 smallImage={d.smallImage}
               />
             </div>
