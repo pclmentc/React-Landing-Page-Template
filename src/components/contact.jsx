@@ -61,7 +61,7 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Nous contacter</h2>                
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
