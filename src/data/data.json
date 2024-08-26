@@ -19,87 +19,83 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",      
+      "title": "Warhammer 40,000: Darktide",      
       "smallImage": "img/40k.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "Albion Online",      
       "smallImage": "img/albion.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "ARK: Survival Ascended",      
       "smallImage": "img/Ark.webp"
     },
     {
-      "title": "Project Title",    
+      "title": "Beasts of Bermuda",    
       "smallImage": "img/Bob.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "Creatures of Sonaria",      
       "smallImage": "img/creatures.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "Dark and Darker",      
       "smallImage": "img/dark.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "DayZ",      
       "smallImage": "img/dayZ.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "Day of dragons",      
       "smallImage": "img/Dod.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "GTA RP",      
       "smallImage": "img/GTA-RP.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "For Honor",      
       "smallImage": "img/honor.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "League of legends",      
       "smallImage": "img/lol.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "Minecraft",      
       "smallImage": "img/minecraft.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "Palworld",      
       "smallImage": "img/palworld.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "Path of titan",      
       "smallImage": "img/pot.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "Project Zomboid",      
       "smallImage": "img/Project-Z.webp"
-    },
+    },   
     {
-      "title": "Project Title",      
-      "smallImage": "img/Dod.webp"
-    },
-    {
-      "title": "Project Title",      
+      "title": "Risk of rain 2",      
       "smallImage": "img/rain.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "RDR 2",      
       "smallImage": "img/Red.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "Vrising",      
       "smallImage": "img/V-R.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "vintage story",      
       "smallImage": "img/vintagestory.webp"
     },
     {
-      "title": "Project Title",      
+      "title": "Farming simulator 25",      
       "smallImage": "img/farming.webp"
     }
   ],

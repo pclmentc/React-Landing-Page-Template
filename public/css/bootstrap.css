@@ -1118,7 +1118,7 @@ img {
 }
 .img-responsive{
   width: 100%;
-  height: 100%;
+  height: 215px;
   object-fit: cover; /* Couvre le conteneur tout en maintenant le ratio */
 }
 .img-responsive1{

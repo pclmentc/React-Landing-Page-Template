@@ -3,9 +3,8 @@ import { Image } from "./image";
 
 export const Gallery = (props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  // Nombre d'images à afficher à la fois (3x3)
-  const itemsPerPage = 9;
+  
+  const itemsPerPage = 3;
   const totalItems = props.data ? props.data.length : 0;
   const totalPages = Math.ceil(totalItems / itemsPerPage);
 
