@@ -188,7 +188,7 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy; 2024 TITANIA-GAMING, Design by{" "}
-            <a href="https://pclmentc.github.io/Projet_12_clement_colas_pierre/" rel="nofollow">
+            <a href="https://pclmentc.github.io/Projet_12_clement_colas_pierre/" target="_blank" rel="noopener noreferrer">
               Pierre Clément-colas.
             </a>
           </p>
