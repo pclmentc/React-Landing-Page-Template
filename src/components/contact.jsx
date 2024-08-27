@@ -162,10 +162,10 @@ export const Contact = (props) => {
           <div className="col-md-12">
             <div className="row">
               <div className="social">
-                <ul>
+                <ul>                  
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}target="_blank" rel="noopener noreferrer">
-                      <i className="fa fa-facebook"></i>
+                    <a href={props.data ? props.data.instagram : "/"}target="_blank" rel="noopener noreferrer">
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
@@ -177,7 +177,7 @@ export const Contact = (props) => {
                     <a href={props.data ? props.data.youtube : "/"}target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-youtube"></i>
                     </a>
-                  </li>
+                  </li>                  
                 </ul>
               </div>
             </div>

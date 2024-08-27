@@ -127,7 +127,7 @@
     {
       "img": "img/serveur/titania_path.webp",
       "name": "Path of Titans",
-      "text": "Explorez un environnement rempli d'événements naturels, de quêtes, de guildes, d'aventures et de jeux de forme libre, tout en profitant d'une vie riche, en évitant la mort et en augmentant votre dinosaure en fonction de votre style de jeu."
+      "text": "Explorez un environnement rempli d'événements naturels, de quêtes, de guildes, d'aventures et de jeux de forme libre en évitant la mort."
     },
     {
       "img": "img/serveur/titania_the_isle.webp",
@@ -195,6 +195,7 @@
     "email": "",
     "facebook": "",
     "twitter": "",
+    "instagram":"",
     "youtube": "https://www.youtube.com/@TITANIA-GAMING-TV/featured"
   },
   "Features": [
