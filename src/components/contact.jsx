@@ -1,5 +1,5 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import React from "react";
 
 const initialState = {
@@ -10,13 +10,14 @@ const initialState = {
 };
 
 const categoryEmailMap = {
-  debanissement: "",// Ajoute l'adresse email appropriée si nécessaire
-  partenariat: "",// Ajoute l'adresse email appropriée si nécessaire
-  autres: "",// Ajoute l'adresse email appropriée si nécessaire
+  debanissement: "pclmentc@gmail.com",// Ajoute l'adresse email appropriée si nécessaire
+  partenariat: "pclmentc@gmail.com",// Ajoute l'adresse email appropriée si nécessaire
+  autres: "pclmentc@gmail.com",// Ajoute l'adresse email appropriée si nécessaire
 };
 
 export const Contact = (props) => {
   const [{ name, email, message, category }, setState] = useState(initialState);
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -36,15 +37,17 @@ export const Contact = (props) => {
       from_name: name,
       from_email: email,
       message: message,
+      category: category,
       to_email: recipientEmail,
     };
 
     emailjs
-      .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams, "YOUR_PUBLIC_KEY")
+      .send("service_8sb006b", "template_k06vjpg", templateParams, "A3bUCmXSMH6UOaLfu")
       .then(
         (result) => {
           console.log(result.text);
           clearState();
+          setIsSubmitted(true);
         },
         (error) => {
           console.log(error.text);
@@ -127,7 +130,7 @@ export const Contact = (props) => {
                 <button type="submit" className="btn btn-custom btn-lg"
                 disabled={!category}
                 >                
-                  Envoyer le message
+                  {isSubmitted ? "Merci" : "Envoyer le message"}
                 </button>
               </form>
             </div>
