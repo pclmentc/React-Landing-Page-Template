@@ -10,9 +10,9 @@ const initialState = {
 };
 
 const categoryEmailMap = {
-  debanissement: "pclmentc@gmail.com",// Ajoute l'adresse email appropriée si nécessaire
-  partenariat: "pclmentc@gmail.com",// Ajoute l'adresse email appropriée si nécessaire
-  autres: "pclmentc@gmail.com",// Ajoute l'adresse email appropriée si nécessaire
+  debanissement: "pclmentc@gmail.com", // Ajoutez l'adresse email appropriée si nécessaire
+  partenariat: "pclmentc@gmail.com", // Ajoutez l'adresse email appropriée si nécessaire
+  autres: "pclmentc@gmail.com", // Ajoutez l'adresse email appropriée si nécessaire
 };
 
 export const Contact = (props) => {
@@ -22,6 +22,9 @@ export const Contact = (props) => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
+    if (isSubmitted) {
+      setIsSubmitted(false); // Réinitialiser le statut d'envoi lorsque l'utilisateur modifie les champs
+    }
   };
 
   const clearState = () => setState({ ...initialState });
@@ -127,9 +130,7 @@ export const Contact = (props) => {
                   </select>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg"
-                disabled={!category}
-                >                
+                <button type="submit" className="btn btn-custom btn-lg" disabled={!category}>
                   {isSubmitted ? "Message envoyé" : "Envoyer le message"}
                 </button>
               </form>
@@ -167,17 +168,17 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>                  
                   <li>
-                    <a href={props.data ? props.data.instagram : "/"}target="_blank" rel="noopener noreferrer">
+                    <a href={props.data ? props.data.instagram : "/"} target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}target="_blank" rel="noopener noreferrer">
+                    <a href={props.data ? props.data.twitter : "/"} target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}target="_blank" rel="noopener noreferrer">
+                    <a href={props.data ? props.data.youtube : "/"} target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>                  
