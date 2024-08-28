@@ -130,7 +130,7 @@ export const Contact = (props) => {
                 <button type="submit" className="btn btn-custom btn-lg"
                 disabled={!category}
                 >                
-                  {isSubmitted ? "Merci" : "Envoyer le message"}
+                  {isSubmitted ? "Message envoyé" : "Envoyer le message"}
                 </button>
               </form>
             </div>
