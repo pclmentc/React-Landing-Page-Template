@@ -47,14 +47,14 @@ export const Gallery = (props) => {
             onClick={prevPage}
             disabled={currentIndex === 0}
           >
-            &laquo; 
+            <img src="/css/nivo-lightbox/prev.png" alt="Précédent" style={{ width: '20px', height: '20px' }}/>
           </button>
           <button
             className="btn btn-primary ml-2"
             onClick={nextPage}
             disabled={currentIndex === totalPages - 1}
           >
-            &raquo;
+            <img src="/css/nivo-lightbox/next.png" alt="Suivant" style={{ width: '20px', height: '20px' }}/>
           </button>
         </div>
       </div>
