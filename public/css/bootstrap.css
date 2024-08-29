@@ -1633,6 +1633,7 @@ pre code {
 .row1 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .col-xs-1,
